@@ -50,8 +50,8 @@ Configuração do Ambiente
 
 ### Clonando o repositório
 
-1.  bashCopiar códigogit clone https://github.com/seu-usuario/mix-ti-solucoes-app.gitcd mix-ti-solucoes-app
-    
+git clone https://github.com/seu-usuario/mix-ti-solucoes-app.git
+cd mix-ti-solucoes-app
 
 ### Configuração do Banco de Dados
 
