@@ -96,7 +96,7 @@ Exemplo do script SQL:CREATE TABLE Produtos ( ProdutoId INT PRIMARY KEY IDENTITY
 
 ### Estrutura de Pastas
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopiar códigomix-ti-solucoes-app/  │  ├── MixTiSolucoesApp/              # Diretório do código principal da aplicação  │   ├── Forms/                     # Formulários da aplicação (Windows Forms)  │   ├── Properties/                # Arquivos de configuração do Visual Studio  │   └── Resources/                 # Imagens e ícones usados no projeto  │  ├── scripts/                       # Scripts SQL para criação e população do banco de dados  │   └── create_database.sql        # Script para criação do banco de dados  │  └── README.md                      # Documentação do projeto   `
+├── MixTiSolucoesApp/              # Diretório do código principal da aplicação  │   ├── Forms/                     # Formulários da aplicação (Windows Forms)  │   ├── Properties/                # Arquivos de configuração do Visual Studio  │   └── Resources/                 # Imagens e ícones usados no projeto  │  ├── scripts/                       # Scripts SQL para criação e população do banco de dados  │   └── create_database.sql        # Script para criação do banco de dados  │  └── README.md                      # Documentação do projeto   `
 
 Como Contribuir
 ---------------
