@@ -59,7 +59,7 @@ Configuração do Ambiente
     
 2.  xmlCopiar código
     
-3.  sqlCopiar código--
+3.  código--
 Exemplo do script SQL:CREATE TABLE Produtos ( ProdutoId INT PRIMARY KEY IDENTITY(1,1), Nome NVARCHAR(100) NOT NULL, Preco DECIMAL(18, 2) NOT NULL, QuantidadeEstoque INT NOT NULL);CREATE TABLE Vendas ( VendaId INT PRIMARY KEY IDENTITY(1,1), ProdutoId INT FOREIGN KEY REFERENCES Produtos(ProdutoId), QuantidadeVendida INT NOT NULL, DataVenda DATETIME NOT NULL DEFAULT GETDATE());-- Stored ProceduresCREATE PROCEDURE sp\_RelatorioVendasASBEGIN SELECT V.VendaId, P.Nome AS NomeProduto, V.QuantidadeVendida, V.DataVenda FROM Vendas V JOIN Produtos P ON V.ProdutoId = P.ProdutoId;END;
     
 
