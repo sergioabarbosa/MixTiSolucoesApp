@@ -33,8 +33,16 @@ namespace MixTiSolucoesApp
                     DataTable dt = new DataTable();
                     adapter.Fill(dt);
 
-                    // Exibir os dados no DataGridView
-                    dataGridView1.DataSource = dt;
+                    if (dt.Rows.Count > 0)
+                    {
+                        // Exibir os dados no DataGridView
+                        dataGridView1.AutoGenerateColumns = true;
+                        dataGridView1.DataSource = dt;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Nenhum dado encontrado para o relatório de vendas.");
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -42,6 +50,7 @@ namespace MixTiSolucoesApp
                 }
             }
         }
+
 
         // Método opcional, se você quiser lidar com o clique na célula
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
