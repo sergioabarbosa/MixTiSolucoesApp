@@ -52,7 +52,7 @@ namespace MixTiSolucoesApp
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.dataGridViewProdutos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridViewProdutos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewProdutos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewProdutos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewProdutos.BackgroundColor = System.Drawing.Color.White;
@@ -81,12 +81,15 @@ namespace MixTiSolucoesApp
             this.dataGridViewProdutos.Location = new System.Drawing.Point(12, 12);
             this.dataGridViewProdutos.Name = "dataGridViewProdutos";
             this.dataGridViewProdutos.RowHeadersVisible = false;
+            this.dataGridViewProdutos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewProdutos.Size = new System.Drawing.Size(776, 300);
             this.dataGridViewProdutos.TabIndex = 0;
+            this.dataGridViewProdutos.SelectionChanged += new System.EventHandler(this.dataGridViewProdutos_SelectionChanged);
             this.dataGridViewProdutos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewProdutos_CellContentClick);
             // 
             // btnEditarProduto
             // 
+            this.btnEditarProduto.Enabled = false;
             this.btnEditarProduto.Image = ((System.Drawing.Image)(resources.GetObject("btnEditarProduto.Image")));
             this.btnEditarProduto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEditarProduto.Location = new System.Drawing.Point(12, 328);
@@ -99,6 +102,7 @@ namespace MixTiSolucoesApp
             // 
             // btnExcluirProduto
             // 
+            this.btnExcluirProduto.Enabled = false;
             this.btnExcluirProduto.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluirProduto.Image")));
             this.btnExcluirProduto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnExcluirProduto.Location = new System.Drawing.Point(140, 328);

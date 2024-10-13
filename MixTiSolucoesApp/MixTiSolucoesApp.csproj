@@ -147,6 +147,9 @@
     <Content Include="Resources\gerenciar_produtos.png" />
     <Content Include="Resources\relatorio_estoque.png" />
     <Content Include="Resources\relatorio_vendas.png" />
+    <Content Include="Scripts\create_tables.sql.sql" />
+    <Content Include="Scripts\insert_data.sql" />
+    <Content Include="Scripts\stored_procedures.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

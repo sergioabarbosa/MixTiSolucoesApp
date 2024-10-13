@@ -159,6 +159,13 @@ namespace MixTiSolucoesApp
             }
         }
 
+        // Habilitar os botões quando uma linha é selecionada
+        private void dataGridViewProdutos_SelectionChanged(object sender, EventArgs e)
+        {
+            btnEditarProduto.Enabled = dataGridViewProdutos.SelectedRows.Count > 0;
+            btnExcluirProduto.Enabled = dataGridViewProdutos.SelectedRows.Count > 0;
+        }
+
         private void txtNomeProduto_Enter(object sender, EventArgs e)
         {
             if (txtNomeProduto.Text == "Nome do Produto")
@@ -215,7 +222,7 @@ namespace MixTiSolucoesApp
 
         private void dataGridViewProdutos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            // Adicione sua lógica aqui (se necessário)
         }
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixTiSolucoesApp", "MixTiSolucoesApp\MixTiSolucoesApp.csproj", "{6E686872-050E-4270-B442-2E5639DF429D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixTiSolucoesApp.Tests", "MixTiSolucoesApp.Tests\MixTiSolucoesApp.Tests.csproj", "{1319A456-3E6B-4563-9A7E-BDABD5C846CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6E686872-050E-4270-B442-2E5639DF429D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E686872-050E-4270-B442-2E5639DF429D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E686872-050E-4270-B442-2E5639DF429D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1319A456-3E6B-4563-9A7E-BDABD5C846CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1319A456-3E6B-4563-9A7E-BDABD5C846CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1319A456-3E6B-4563-9A7E-BDABD5C846CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1319A456-3E6B-4563-9A7E-BDABD5C846CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
